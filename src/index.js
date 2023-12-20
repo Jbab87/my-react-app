@@ -1,7 +1,6 @@
 import  ReactDOM  from "react-dom"
-import  Footer  from "./Footer"
-import Header from "./Header"
-import  MainContent  from "./MainContent"
+import  Footer  from "./components/Footer"
+import App from "./App"
 import "./index.css"
 
 
@@ -9,8 +8,7 @@ import "./index.css"
 function ReactPage() { 
 return (
     <div>
-    <Header/>
-   <MainContent/>
+    <App/>
     <Footer/>
     </div>
 )   
@@ -21,6 +19,4 @@ return (
 
 ReactDOM.render(
     <ReactPage/>, document.getElementById("root")
-
-
 )

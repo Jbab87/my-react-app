@@ -1,12 +1,14 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Inter, sans-serif;
   margin: 0px;
 }
 
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  background-color: #21222A;
+  align-items: center;
+  padding: 30px 25px;
   border-bottom: gray;
   border-width: 0;
   box-shadow: 0.1px  0.1px  8px ;
@@ -15,6 +17,8 @@ body {
 
 .nav-items {
   list-style: none;
+  color: #DEEBF8;
+  font-weight: 400;
   display: flex;
   align-items: center;
 }
@@ -22,23 +26,47 @@ body {
 with the class "nav-items" and apply a padding of 10 pixels to them.
 */
 .nav-items > li {
-  padding: 10px;
+  padding: 20px;
 }
 
 .nav-logo {
-  width: 80px;
+  width: 40px;
+  margin: 20px;
+  border: solid white;
+}
+
+.nav-title {
+  color: #61DAFB;
+  font-size: 22px;
+  font-weight:bolder;
+  margin-right: auto;
+  border: solid white;
 }
 
 .main-content {
-  margin: 20;
+  background-color: #282D35;
+  background-image: url("logo192.png");
+  background-repeat: no-repeat;
+  background-position:100% 70%;
+  color: white;
+  padding: 30px 40px;
+}
+
+.fact-list > li {
+  padding: 10px;
+  font-size: medium;
+  color: #DEEBF8;
+
+}
+
+::marker {
+  color: #61DAFB;
+  font-size: x-large;
+  
 }
 
 .footer {
   color: azure;
   background-color: grey;
   padding: 10px;
-
-  
-  
-
 }

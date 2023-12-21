@@ -1,16 +1,10 @@
-import navlogo from "../logo192.png"
+import logo from "../airbnb.png"
 
-export default function Header() {
+export default function Navbar() {
     return (
     <header>
         <nav className="nav">
-        <img className="nav-logo" src={navlogo}></img>
-        <h1 className="nav-title">ReactFacts</h1>
-        <ul className="nav-items">
-            <li>Pricing</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+        <img className="nav-logo" src={logo}></img>
         </nav>
     </header>
     )

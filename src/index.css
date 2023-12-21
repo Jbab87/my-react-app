@@ -1,72 +1,74 @@
 body {
-  font-family: Inter, sans-serif;
-  margin: 0px;
+  background-color: white;
+  margin: 0;
+  font-family: Poppins, sans-serif;
+
 }
 
-
-.nav {
-  display: flex;
-  background-color: #21222A;
-  align-items: center;
-  padding: 30px 25px;
-  border-bottom: gray;
-  border-width: 0;
-  box-shadow: 0.1px  0.1px  8px ;
-  
+.grey {
+  color: #918E98;
 }
 
-.nav-items {
-  list-style: none;
-  color: #DEEBF8;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
+.bold {
+  font-weight: bold;
 }
-/* : Select all <li> elements that are direct children of an element
-with the class "nav-items" and apply a padding of 10 pixels to them.
-*/
-.nav-items > li {
-  padding: 20px;
+
+nav {
+  padding-left: 22px;
+  padding-block: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.1);
+
 }
 
 .nav-logo {
-  width: 40px;
-  margin: 20px;
-  border: solid white;
-}
-
-.nav-title {
-  color: #61DAFB;
-  font-size: 22px;
-  font-weight:bolder;
-  margin-right: auto;
-  border: solid white;
-}
-
-.main-content {
-  background-color: #282D35;
-  background-image: url("logo192.png");
-  background-repeat: no-repeat;
-  background-position:100% 70%;
-  color: white;
-  padding: 30px 40px;
-}
-
-.fact-list > li {
-  padding: 10px;
-  font-size: medium;
-  color: #DEEBF8;
 
 }
 
-::marker {
-  color: #61DAFB;
-  font-size: x-large;
-  
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    align-items: center;
+    
+
 }
 
-.footer {
-  color: azure;
-  background-color: grey;
-  padding: 10px;
+.hero-image {
+
+  width: 395px;
+  height: 232px;
+
+
+}
+
+.hero-h1 {
+ align-self: first baseline;
+ margin-bottom: 16px;
+}
+
+.hero-p {
+  align-self: baseline;
+  max-width: 310px;
+  margin-top: 0px;
+}
+
+
+.card {
+  font-size: 12px;
+  width: 175px;
+  padding: 20px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.card-info {
+  align-items: center;
+}
+
+.card-star {
+  height: 14px;
 }

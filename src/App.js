@@ -1,14 +1,17 @@
 import  ReactDOM  from "react-dom"
 import Navbar from "./components/Navbar"
-import MainContent from "./components/Main"
-
+import Hero from "./components/Hero"
+import Card from "./components/Card"
 
 export default function App() {
  return (
     
         <div className="container">
         <Navbar/>
-        <MainContent/>
+        <Hero/>
+        <Card/>
+
+    
         </div>
  )
  

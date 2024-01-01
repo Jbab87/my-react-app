@@ -7,6 +7,7 @@ import "./index.css"
 function ReactPage() { 
 return (
     <div>
+        
     <App/>
     </div>
 )   

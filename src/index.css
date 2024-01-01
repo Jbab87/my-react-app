@@ -21,9 +21,7 @@ nav {
 
 }
 
-.nav-logo {
 
-}
 
 .hero-container {
     display: flex;
@@ -53,20 +51,43 @@ nav {
   margin-top: 0px;
 }
 
+.card-section {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+
+}
 
 .card {
+  position: relative;
   font-size: 12px;
   width: 175px;
   padding: 20px;
+  flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
 }
 
 .card-image {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card-badge {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  padding: 5px 7px;
+  border-radius: 2px;
+  background-color: white;
+  font-weight: bold;
 }
 
 .card-info {
   align-items: center;
+  text-wrap: nowrap;
 }
 
 .card-star {
